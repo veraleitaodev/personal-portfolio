@@ -84,12 +84,14 @@ table {
   margin-left: 35%;
   width: 65%;
   background: white;
+  height: 100%;
 }
 
 html, body {
   font-size: 18px;
   background: #4B21FF;
   font-family: "Barlow Semi Condensed", sans-serif;
+  height: 100%;
 }
 
 /*# sourceMappingURL=/js.00a46daa.css.map */
