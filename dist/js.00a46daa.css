@@ -52,6 +52,11 @@ table {
   border-spacing: 0;
 }
 
+.home .logo {
+  background: white;
+  height: 100px;
+  width: 200px;
+}
 .home .info-section {
   width: 35%;
   position: absolute;
