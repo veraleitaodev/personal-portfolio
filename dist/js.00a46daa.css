@@ -54,12 +54,30 @@ table {
 
 .home .info-section {
   width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.home .info-section .info-box {
+  padding: 54px;
+  position: absolute;
+  bottom: 60px;
+}
+.home .info-section h4 {
+  font-size: 1.2rem;
+}
+.home .info-section p {
+  font-size: 1.1rem;
 }
 .home .content-area {
+  margin-left: 35%;
+  width: 65%;
   background: white;
 }
 
-body {
+html, body {
+  font-size: 18px;
   background: #4B21FF;
 }
 
