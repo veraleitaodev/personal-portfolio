@@ -3,6 +3,6 @@
 *.sass.map
 *.scss.map
 
-cache/
+.cache/
 
 node_modules/
