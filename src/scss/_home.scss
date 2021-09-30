@@ -6,6 +6,7 @@
     }
 
     .info-section {
+        padding: 54px;
         width: 35%;
         position: absolute;
         top: 0;
@@ -13,7 +14,6 @@
         left: 0;
 
         .info-box {
-            padding: 54px;
             position: absolute;
             bottom: 60px;
         }
@@ -27,7 +27,7 @@
             font-size: 0.9rem;
             font-weight: 300;
             color: $color3;
-            margin: 0.2rem 0 0.8rem;
+            margin: 0.2rem 0 1.6rem;
         }
     }
     .content-area{

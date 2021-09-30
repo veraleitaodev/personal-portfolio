@@ -58,6 +58,7 @@ table {
   width: 200px;
 }
 .home .info-section {
+  padding: 54px;
   width: 35%;
   position: absolute;
   top: 0;
@@ -65,7 +66,6 @@ table {
   left: 0;
 }
 .home .info-section .info-box {
-  padding: 54px;
   position: absolute;
   bottom: 60px;
 }
@@ -78,7 +78,7 @@ table {
   font-size: 0.9rem;
   font-weight: 300;
   color: #fefefe;
-  margin: 0.2rem 0 0.8rem;
+  margin: 0.2rem 0 1.6rem;
 }
 .home .content-area {
   margin-left: 35%;
