@@ -98,7 +98,7 @@ table {
   left: -250px;
   width: 500px;
   height: calc(100% - 112px);
-  background: url(/avatar.22de90d3.png) no-repeat center center grey;
+  background: url(/portfolio-img.47ff4f55.png) no-repeat center center grey;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -115,7 +115,7 @@ table {
   margin: 0 0 1.4rem;
 }
 .home .content-area .profile-section .profile h1 span {
-  color: #D99789;
+  color: #CD8C88;
 }
 .home .content-area .profile-section .profile h5 {
   font-size: 1.1rem;
@@ -131,7 +131,7 @@ table {
 
 html, body {
   font-size: 18px;
-  background: #D99789;
+  background: #CD8C88;
   font-family: "Barlow Semi Condensed", sans-serif;
   height: 100%;
 }
