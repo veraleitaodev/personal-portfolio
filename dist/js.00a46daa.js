@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Users/vera/Projects/personal-portfolio/src/img/portfolio-img.png":[["portfolio-img.47ff4f55.png","img/portfolio-img.png"],"img/portfolio-img.png"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/index.js":[function(require,module,exports) {
+},{"/Users/vera/Projects/personal-portfolio/src/img/avatar.png":[["avatar.22de90d3.png","img/avatar.png"],"img/avatar.png"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/index.js":[function(require,module,exports) {
 "use strict";
 
 require("../scss/main.scss");
