@@ -86,6 +86,31 @@ table {
   background: white;
   height: 100%;
 }
+.home .content-area .img-container {
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  height: 100%;
+}
+.home .content-area .img-container .user-img {
+  position: absolute;
+  top: 56px;
+  left: -250px;
+  width: 500px;
+  height: calc(100% - 112px);
+  background: url(/portfolio-img.47ff4f55.png) no-repeat center center grey;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.home .content-area .profile-section {
+  vertical-align: top;
+  display: inline-block;
+}
+* {
+  box-sizing: border-box;
+}
 
 html, body {
   font-size: 18px;
