@@ -29,6 +29,19 @@
       color: $color3-white;
       margin: 0.2rem 0 1.6rem;
     }
+
+    .icon-section {
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 0 10px;
+
+        &:first-child {
+          padding: 0 10px 0 0;
+        }
+      }
+    }
   }
   .content-area {
     margin-left: 35%;
@@ -48,7 +61,8 @@
         left: -250px;
         width: 500px;
         height: calc(100% - 112px);
-        background: url(/img/portfolio-img.png) no-repeat center center $color4-grey;
+        background: url(/img/portfolio-img.png) no-repeat center center
+          $color4-grey;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -64,7 +78,6 @@
       margin: 0 0 2rem 0;
 
       .profile {
-
         h1 {
           font-size: 2.3rem;
           font-weight: 500;
@@ -77,15 +90,15 @@
         }
 
         h5 {
-            font-size: 1.1rem;
-            margin: 0 0 2rem;
+          font-size: 1.1rem;
+          margin: 0 0 2rem;
         }
 
         p {
-            color: $color4-grey;
-            font-weight: 300;
-            line-height: 1.4;
-            margin: 0 0 2rem;
+          color: $color4-grey;
+          font-weight: 300;
+          line-height: 1.4;
+          margin: 0 0 2rem;
         }
       }
     }

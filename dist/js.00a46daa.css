@@ -80,6 +80,15 @@ table {
   color: #fefefe;
   margin: 0.2rem 0 1.6rem;
 }
+.home .info-section .icon-section a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0 10px;
+}
+.home .info-section .icon-section a:first-child {
+  padding: 0 10px 0 0;
+}
 .home .content-area {
   margin-left: 35%;
   width: 65%;
