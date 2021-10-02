@@ -20,20 +20,20 @@
 
     h4 {
       font-size: 1.2rem;
-      color: $color3;
+      color: $color3-white;
       margin: 0.7rem 0;
     }
     p {
       font-size: 0.9rem;
       font-weight: 300;
-      color: $color3;
+      color: $color3-white;
       margin: 0.2rem 0 1.6rem;
     }
   }
   .content-area {
     margin-left: 35%;
     width: 65%;
-    background: white;
+    background: $color3-white;
     height: 100%;
     // padding: 0 0 0 25%;
     .img-container {
@@ -48,7 +48,7 @@
         left: -250px;
         width: 500px;
         height: calc(100% - 112px);
-        background: url(/img/portfolio-img.png) no-repeat center center grey;
+        background: url(/img/portfolio-img.png) no-repeat center center $color4-grey;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -58,6 +58,11 @@
     .profile-section {
       vertical-align: top;
       display: inline-block;
+      padding: 20% 0 0 0;
+      max-width: 500px;
+      line-height: 1.4;
+      margin: 0 0 2rem 0;
+
       .profile {
 
         h1 {
@@ -67,7 +72,7 @@
           margin: 0 0 1.4rem;
 
           span {
-            color: $color1;
+            color: $color1-pink;
           }
         }
 
@@ -77,7 +82,10 @@
         }
 
         p {
-            color: $color4;
+            color: $color4-grey;
+            font-weight: 300;
+            line-height: 1.4;
+            margin: 0 0 2rem;
         }
       }
     }
