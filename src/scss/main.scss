@@ -14,6 +14,17 @@ body {
   height: 100%;
 }
 
+.hamburger-icon {
+    position: fixed;
+    right: 36px;
+    top: 36px;
+    padding: 20px;
+    fa {
+        font-size: 2rem;
+        color: $color1-pink;
+    }
+}
+
 .primary-btn {
   background: $color1-pink;
   -webkit-border-radius: 30px;

@@ -144,6 +144,17 @@ body {
   height: 100%;
 }
 
+.hamburger-icon {
+  position: fixed;
+  right: 36px;
+  top: 36px;
+  padding: 20px;
+}
+.hamburger-icon fa {
+  font-size: 2rem;
+  color: #CD8C88;
+}
+
 .primary-btn {
   background: #CD8C88;
   -webkit-border-radius: 30px;
