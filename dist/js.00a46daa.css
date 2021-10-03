@@ -53,9 +53,15 @@ table {
 }
 
 .home .logo {
-  background: white;
+  border: 5px solid #fefefe;
   height: 100px;
-  width: 200px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fefefe;
+  line-height: 0;
 }
 .home .info-section {
   padding: 54px;
@@ -69,24 +75,27 @@ table {
   position: absolute;
   bottom: 60px;
 }
-.home .info-section h4 {
+.home .info-section .info-box h4 {
   font-size: 1.2rem;
   color: #fefefe;
   margin: 0.7rem 0;
 }
-.home .info-section p {
+.home .info-section .info-box p {
   font-size: 0.9rem;
   font-weight: 300;
   color: #fefefe;
   margin: 0.2rem 0 1.6rem;
 }
-.home .info-section .icon-section a {
+.home .info-section .info-box .icon-section a {
   color: white;
   text-decoration: none;
   font-size: 2rem;
   padding: 0 10px;
 }
-.home .info-section .icon-section a:first-child {
+.home .info-section .info-box .icon-section a:hover {
+  color: #a9a9a9;
+}
+.home .info-section .info-box .icon-section a:first-child {
   padding: 0 10px 0 0;
 }
 .home .content-area {
@@ -104,14 +113,17 @@ table {
 .home .content-area .img-container .user-img {
   position: absolute;
   top: 56px;
-  left: -250px;
-  width: 500px;
+  left: -200px;
+  width: 400px;
   height: calc(100% - 112px);
   background: url(/portfolio-img.47ff4f55.png) no-repeat center center #a9a9a9;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
+  -moz-box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
+  box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
 }
 .home .content-area .profile-section {
   vertical-align: top;
@@ -152,20 +164,21 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   height: 100%;
 }
-
-.menu-icon {
+html .menu-icon,
+body .menu-icon {
   position: fixed;
   right: 36px;
   top: 36px;
   padding: 20px;
   z-index: 11;
 }
-.menu-icon .fa, .menu-icon .fas {
+html .menu-icon .fa,
+body .menu-icon .fa {
   font-size: 2rem;
   color: #CD8C88;
 }
-
-.primary-btn {
+html .primary-btn,
+body .primary-btn {
   background: #CD8C88;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -178,8 +191,8 @@ body {
   letter-spacing: 3px;
   margin-right: 15px;
 }
-
-.ghost-btn {
+html .ghost-btn,
+body .ghost-btn {
   border: 4px solid #CD8C88;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -191,8 +204,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
-#menu {
+html #menu,
+body #menu {
   background: #CD8C88;
   position: fixed;
   transform: translate3d(-100%, 0, 0);
@@ -204,25 +217,29 @@ body {
   opacity: 1;
   transition: all 0.5s ease-in-out;
 }
-#menu nav {
+html #menu nav,
+body #menu nav {
   width: 400px;
   text-align: center;
 }
-#menu nav a {
+html #menu nav a,
+body #menu nav a {
   font-size: 2.3rem;
   padding: 1rem;
   display: block;
   text-decoration: none;
   color: #fefefe;
 }
-#menu nav a:hover {
+html #menu nav a:hover,
+body #menu nav a:hover {
   color: #a9a9a9;
 }
-
-.menu-active .menu-icon .fas {
+html .menu-active .menu-icon .fa,
+body .menu-active .menu-icon .fa {
   color: #fefefe;
 }
-.menu-active #menu {
+html .menu-active #menu,
+body .menu-active #menu {
   width: 100%;
   top: 0;
   bottom: 0;
