@@ -52,7 +52,7 @@ table {
   border-spacing: 0;
 }
 
-.home .logo {
+.logo {
   border: 5px solid #fefefe;
   height: 100px;
   width: 150px;
@@ -63,7 +63,8 @@ table {
   color: #fefefe;
   line-height: 0;
 }
-.home .info-section {
+
+.info-section {
   padding: 54px;
   width: 35%;
   position: absolute;
@@ -71,33 +72,34 @@ table {
   bottom: 0;
   left: 0;
 }
-.home .info-section .info-box {
+.info-section .info-box {
   position: absolute;
   bottom: 60px;
 }
-.home .info-section .info-box h4 {
+.info-section .info-box h4 {
   font-size: 1.2rem;
   color: #fefefe;
   margin: 0.7rem 0;
 }
-.home .info-section .info-box p {
+.info-section .info-box p {
   font-size: 0.9rem;
   font-weight: 300;
   color: #fefefe;
   margin: 0.2rem 0 1.6rem;
 }
-.home .info-section .info-box .icon-section a {
+.info-section .info-box .icon-section a {
   color: white;
   text-decoration: none;
   font-size: 2rem;
   padding: 0 10px;
 }
-.home .info-section .info-box .icon-section a:hover {
+.info-section .info-box .icon-section a:hover {
   color: #A6120A;
 }
-.home .info-section .info-box .icon-section a:first-child {
+.info-section .info-box .icon-section a:first-child {
   padding: 0 10px 0 0;
 }
+
 .home .content-area {
   margin-left: 35%;
   width: 65%;
@@ -151,6 +153,13 @@ table {
   font-weight: 300;
   line-height: 1.4;
   margin: 0 0 2rem;
+}
+
+.resume .content-area {
+  margin-left: 35%;
+  width: 65%;
+  background: #fefefe;
+  height: 100%;
 }
 
 * {
