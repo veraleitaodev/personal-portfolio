@@ -27,6 +27,7 @@ body {
   }
 
   .primary-btn {
+    text-decoration: none;
     background: $color1-pink;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -38,9 +39,15 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-right: 15px;
+    transition: $btntransitions;
+
+    &:hover {
+        background: $color7-hover;
+    }
   }
 
   .ghost-btn {
+    text-decoration: none;
     border: 4px solid $color1-pink;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -51,6 +58,12 @@ body {
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 3px;
+    transition: $btntransitions;
+
+    &:hover {
+        color: $color7-hover;
+        border-color: $color7-hover;
+    }
   }
 
   #menu {
