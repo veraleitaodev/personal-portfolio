@@ -26,6 +26,7 @@
         grid-template-columns: 1fr 1fr;
 
         .project-box {
+            position: relative;
           padding: 30px;
           transition: all 0.5s ease-in-out;
           cursor: pointer;
@@ -34,6 +35,16 @@
           -o-background-size: cover;
           background-size: cover;
           height: 400px;
+
+          .grey-bg {
+            background: $color4-grey;  
+            position: absolute;
+              top: 0;
+              right: 0;
+              left: 0;
+              bottom: 0;
+
+          }
 
           &:hover {
             -webkit-box-shadow: 0 20px 60px 6px rgba(13, 12, 13, 0.2);
