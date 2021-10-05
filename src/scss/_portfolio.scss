@@ -26,7 +26,7 @@
         grid-template-columns: 1fr 1fr;
 
         .project-box {
-            position: relative;
+          position: relative;
           padding: 30px;
           transition: all 0.5s ease-in-out;
           cursor: pointer;
@@ -37,35 +37,64 @@
           height: 400px;
 
           .grey-bg {
-            background: $color8-light-grey;  
+            background: $color8-light-grey;
             position: absolute;
-              top: 0;
-              right: 0;
-              left: 0;
-              bottom: 0;
-              opacity: 0;
-              transition: all 0.3s ease-in-out;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            overflow: hidden;
 
-              &:hover {
-                opacity: 0.9;
-              }
+            &:hover {
+              opacity: 0.9;
 
               .project-info {
-                padding: 56px;
-                position: absolute;
-                bottom: 0;
-
                 .project-details {
-                  font-size: 1.1rem;
-                  text-transform: capitalize;
+                  transform: translate3d(0, 0, 0);
+                  opacity: 1;
                 }
 
                 .project-title {
-                  font-size: 1.8rem;
-                  text-transform: uppercase;
+                  transform: translate3d(0, 0, 0);
+                  opacity: 1;
                 }
               }
+            }
 
+            .project-info {
+              padding: 56px;
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+
+              .project-details {
+                position: relative;
+                font-size: 1.1rem;
+                text-transform: capitalize;
+                margin: 0 0 1rem;
+                transform: translate3d(-300px, 0, 0);
+                opacity: 0;
+                transition: transform 0.3s ease-in-out;
+              }
+
+              .project-title {
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 0.3rem;
+                transform: translate3d(-300px, 0, 0);
+                opacity: 0;
+                transition: transform 0.3s ease-in-out 0.2s;
+              }
+
+              .fa-long-arrow-alt-right {
+                position: absolute;
+                bottom: 56px;
+                right: 56px;
+              }
+            }
           }
 
           &:hover {
