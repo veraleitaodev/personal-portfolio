@@ -34,7 +34,7 @@
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
-          height: 400px;
+          height: 300px;
 
           .grey-bg {
             background: $color8-light-grey;
@@ -114,6 +114,21 @@
             font-size: 1rem;
             margin-top: 0.7rem;
           }
+        }
+
+        #projectBox1 {
+          background: url('../img/multiple-devices.jpeg') no-repeat top left;
+          background-size: 110%;
+        }
+
+        #projectBox2 {
+          background: $color8-light-grey url('../img/kiscoding.png') no-repeat top left;
+          background-size: 110%;
+        }
+
+        #projectBox3 {
+          background: url('../img/eqTest.png') no-repeat top left;
+          background-size: 110%;
         }
       }
     }
