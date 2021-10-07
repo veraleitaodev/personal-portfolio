@@ -1,0 +1,69 @@
+.contact {
+  
+    .content-area {
+      margin-left: 35%;
+      width: 65%;
+      background: $color3-white;
+      height: 100%;
+      // padding: 0 0 0 25%;
+  
+      .img-container {
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        height: 100%;
+  
+        .user-img {
+          position: absolute;
+          top: 56px;
+          left: -200px;
+          width: 400px;
+          height: calc(100% - 112px);
+          background: url(/img/portfolio-img.png) no-repeat center center
+            $color4-grey;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          -webkit-box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
+          -moz-box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
+          box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
+        }
+      }
+  
+      .profile-section {
+        vertical-align: top;
+        display: inline-block;
+        padding: 20% 0 0 0;
+        max-width: 500px;
+        line-height: 1.4;
+        margin: 0 0 2rem 0;
+  
+        .profile {
+          h1 {
+            font-size: 2.3rem;
+            font-weight: 500;
+            line-height: 1.2;
+            margin: 0 0 1.4rem;
+  
+            span {
+              color: $color1-pink;
+            }
+          }
+  
+          h5 {
+            font-size: 1.1rem;
+            margin: 0 0 2rem;
+          }
+  
+          p {
+            color: $color4-grey;
+            font-weight: 300;
+            line-height: 1.4;
+            margin: 0 0 2rem;
+          }
+        }
+      }
+    }
+  }
+  
