@@ -19,12 +19,7 @@
           left: -200px;
           width: 400px;
           height: calc(100% - 112px);
-          background: url(/img/portfolio-img.png) no-repeat center center
-            $color4-grey;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+          background: $color4-grey;
           -webkit-box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
           -moz-box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
           box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
