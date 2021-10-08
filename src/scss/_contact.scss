@@ -26,11 +26,21 @@
         box-shadow: 9px 24px 33px 6px rgba(13, 12, 13, 0.29);
 
         input[type="text"],
+        input[type="email"],
         textarea {
           width: 100%;
           background: transparent;
           border: none;
           border-bottom: 2px solid $color8-light-grey;
+          margin-bottom: 2rem;
+          font-size: .8rem;
+          color: $color8-light-grey;
+          text-transform: uppercase;
+        }
+
+        ::placeholder {
+            color: $color3-white;
+            opacity: .5;
         }
 
         button[type="submit"] {
