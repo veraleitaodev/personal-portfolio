@@ -14,6 +14,7 @@
 
       .form-section {
         position: absolute;
+        overflow-y: scroll;
         top: 56px;
         left: -200px;
         width: 400px;
@@ -35,7 +36,6 @@
           margin-bottom: 2rem;
           font-size: .8rem;
           color: $color8-light-grey;
-          text-transform: uppercase;
         }
 
         ::placeholder {
