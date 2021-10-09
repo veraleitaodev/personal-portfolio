@@ -15,6 +15,7 @@
       .form-section {
         position: absolute;
         overflow-y: scroll;
+        overflow-x: hidden;
         top: 56px;
         left: -200px;
         width: 400px;
@@ -34,13 +35,14 @@
           border: none;
           border-bottom: 2px solid $color8-light-grey;
           margin-bottom: 2rem;
-          font-size: .8rem;
+          font-size: 0.8rem;
           color: $color8-light-grey;
+          padding-bottom: 5px;
         }
 
         ::placeholder {
-            color: $color3-white;
-            opacity: .5;
+          color: $color3-white;
+          opacity: 0.5;
         }
 
         button[type="submit"] {
@@ -56,10 +58,11 @@
           color: $color3-white;
           padding: 15px 30px;
         }
+
         h4 {
-            font-size: 1.3rem;
-            margin-bottom: 4rem;
-            margin-top: 2rem;
+          font-size: 1.3rem;
+          margin-bottom: 3rem;
+          margin-top: 1.5rem;
         }
       }
     }
@@ -67,23 +70,41 @@
     .contact-section {
       vertical-align: top;
       display: inline-block;
-      padding: 20% 0 0 0;
+      padding: 56px 0 0 0;
       max-width: 500px;
       line-height: 1.4;
       margin: 0 0 2rem 0;
 
       .contactMe {
+        h1 {
+          font-weight: 700;
+          font-size: 2rem;
+          text-transform: uppercase;
+          margin-bottom: 56px;
+        }
+
         .contact-box {
+          width: 100%;
+          padding: 30px;
+          transition: all 0.5s ease-in-out;
+          cursor: pointer;
+
+          &:hover {
+            -webkit-box-shadow: 0 20px 60px 6px rgba(13, 12, 13, 0.2);
+            -moz-box-shadow: 0 20px 60px 6px rgba(13, 12, 13, 0.2);
+            box-shadow: 0 20px 60px 6px rgba(13, 12, 13, 0.2);
+          }
+
           h5 {
-            font-size: 1.1rem;
-            margin: 0 0 2rem;
+            font-weight: 500;
+            font-size: 1.3rem;
+            margin-bottom: 1.3rem;
           }
 
           p {
-            color: $color4-grey;
             font-weight: 300;
-            line-height: 1.4;
-            margin: 0 0 2rem;
+            font-size: 1rem;
+            margin-top: 0.7rem;
           }
         }
       }
