@@ -105,11 +105,12 @@
         width: 70%;
         float: right;
         padding: 20% 20px 0;
-      }
 
-      .ghost-btn, 
-      .primary-btn {
-        margin-bottom: 20px;
+        .ghost-btn,
+        .primary-btn {
+          margin-bottom: 20px;
+          font-size: 0.8rem;
+        }
       }
     }
   }
@@ -132,6 +133,11 @@
         width: 70%;
         float: right;
         padding: 20% 20px 0;
+
+        .ghost-btn,
+        .primary-btn {
+          font-size: 0.9rem;
+        }
       }
     }
   }
