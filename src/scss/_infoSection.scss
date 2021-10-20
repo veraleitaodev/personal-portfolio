@@ -57,6 +57,15 @@
     }
   }
 
+// Small devices (under 767px)
+@media (max-width: 767px) {
+  .info-section {
+    .info-box {
+      display: none;
+    }
+  }
+}
+
   // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
