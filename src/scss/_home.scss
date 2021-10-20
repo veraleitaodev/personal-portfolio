@@ -4,7 +4,6 @@
     width: 65%;
     background: $color3-white;
     height: 100%;
-    // padding: 0 0 0 25%;
 
     .img-container {
       display: inline-block;
@@ -90,6 +89,12 @@
     }
 
     .content-area {
+      // :after {
+      //   content: "";
+      //   display: table;
+      //   clear: both;
+      // }
+      
       margin-left: 0;
       width: 100%;
       .img-container {
@@ -148,6 +153,9 @@
   .home {
     .content-area {
       .img-container {
+        padding: 56px 20px 0;
+        float: left;
+
         .user-img {
           left: -80px;
           width: 300px;
@@ -157,6 +165,7 @@
       .profile-section {
         padding: 120px 0 0 60px;
         max-width: 400px;
+        float: left;
 
         .profile {
           h1 {
@@ -168,6 +177,7 @@
           }
 
           p {
+
           }
         }
       }
