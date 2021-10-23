@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/veraleitaodev/personal-portfolio/issues"
   },
-  "homepage": "https://github.com/veraleitaodev/personal-portfolio/src",
+  "homepage": "https://github.com/veraleitaodev/personal-portfolio",
   "devDependencies": {
     "sass": "^1.42.1"
   }
